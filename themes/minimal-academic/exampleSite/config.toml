@@ -3,14 +3,13 @@
 baseurl = "https://example.com"
 
 # Title of your site
-title = "My Minimal Academic"
+title = "Minimal Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Andrej Blejec 2018"
+copyright = "&copy; Joshua Hu 2018"
 
-#theme = "minimal-academic"
-theme = "../.."
+theme = "minimal-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -39,12 +38,12 @@ enableGitInfo = false
 
 [params]
   # Your details.
-  name = "Primer"
-  bio = "Take it easy, but take it."
+  name = "Minimal Academic"
+  bio = "A minimally academic theme."
 
-  avatar = "Ablejec-klobuk-150.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
-  location = "Ljubljana, Slovenia"
+  location = "San Francisco"
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -67,28 +66,28 @@ enableGitInfo = false
   #   Anonymize IP in Google Analytics (if enabled)
   privacy_pack = false
 
-#  [[params.social]]
-#    icon = "instagram"
-#    icon_pack = "fa"
-#    link = "//instagram.com/jhu247"
-#    text = "Instagram"
+  [[params.social]]
+    icon = "instagram"
+    icon_pack = "fa"
+    link = "//instagram.com/jhu247"
+    text = "Instagram"
 
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "//www.linkedin.com/in/ablejec/?originalSubdomain=si"
+    link = "//linkedin.com/in/joshua-hu-12290a43"
     text = "LinkedIn"
 
-#  [[params.social]]
-#    icon = "twitter"
-#    icon_pack = "fa"
-#    link = "//twitter.com/jhu247"
-#    text = "Twitter"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/jhu247"
+    text = "Twitter"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/ablejec"
+    link = "//github.com/jhu247"
     text = "Github"
 
 # Taxonomies.
